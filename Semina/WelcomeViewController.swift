@@ -25,8 +25,8 @@ final class WelcomeViewController: UIViewController {
         label.text = "???님 \n반가워요!"
         label.textAlignment = .center
         label.numberOfLines = 2
-          label.font = UIFont(name: "Pretendard-ExtraBold", size: 25)
-
+        label.font = UIFont(name: "Pretendard-ExtraBold", size: 25)
+        
         return label
     }()
     
@@ -35,9 +35,10 @@ final class WelcomeViewController: UIViewController {
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("메인으로", for: .normal)
         button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 8
         button.addTarget(self, action: #selector(backBtnTapped), for: .touchUpInside)
-           button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
-
+        button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
+        
         return button
     }()
     
@@ -46,9 +47,10 @@ final class WelcomeViewController: UIViewController {
         button.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         button.setTitle("로그인하기", for: .normal)
         button.setTitleColor(UIColor(red: 172/255, green: 176/255, blue: 185/255, alpha: 1), for: .normal)
+        button.layer.cornerRadius = 8
         button.addTarget(self, action: #selector(backBtnTapped), for: .touchUpInside)
-             button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
-
+        button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
+        
         return button
     }()
     
@@ -60,7 +62,7 @@ final class WelcomeViewController: UIViewController {
         self.view.backgroundColor = .white
         setLayout()
         bindID()
-
+        
     }
     
     private func setLayout() {

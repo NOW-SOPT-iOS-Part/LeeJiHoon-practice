@@ -18,6 +18,7 @@ final class LoginViewController: UIViewController {
         label.textColor = .black
         label.textAlignment = .center
         label.numberOfLines = 2
+        
         label.font = UIFont(name: "Pretendard-Bold", size: 18)
         return label
     }()
@@ -26,8 +27,10 @@ final class LoginViewController: UIViewController {
         let textField = UITextField(frame: CGRect(x: 20, y: 276, width: 335, height: 52))
         textField.placeholder = "아이디를 입력해주세요"
         textField.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
-           textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
-
+        textField.layer.cornerRadius = 10
+        textField.clipsToBounds = true
+        textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        
         return textField
     }()
     
@@ -35,8 +38,10 @@ final class LoginViewController: UIViewController {
         let textField = UITextField(frame: CGRect(x: 20, y: 335, width: 335, height: 52))
         textField.placeholder = "비밀번호를 입력해주세요"
         textField.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
-              textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
-
+        textField.layer.cornerRadius = 10
+        textField.clipsToBounds = true
+        textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        
         return textField
     }()
     
@@ -45,9 +50,11 @@ final class LoginViewController: UIViewController {
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("로그인하기", for: .normal)
         button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 8
+        button.clipsToBounds = true
         button.addTarget(self, action: #selector(loginBtnTapped), for: .touchUpInside)
         button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
-
+        
         return button
     }()
     
@@ -80,15 +87,18 @@ final class LoginViewController: UIViewController {
     private func pushToWelcomeVC() {
         let welcomeVC = WelcomeViewController()
         welcomeVC.id = idTextField.text
-
+        
+        
         self.navigationController?.pushViewController(welcomeVC, animated: true)
     }
     
     
     //MARK: - @objc
     @objc func loginBtnTapped() {
-     //   presentToWelcomeVC()
+        //   presentToWelcomeVC()
         pushToWelcomeVC()
     }
+    
+    
     
 }
