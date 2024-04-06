@@ -8,6 +8,7 @@
 import UIKit
 import Foundation
 
+
 final class WelcomeViewController: UIViewController {
     
     //MARK: - variable
