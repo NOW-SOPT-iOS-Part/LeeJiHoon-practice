@@ -25,6 +25,8 @@
 		786211A22BBABE7C000AE22E /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 786211992BBABE7C000AE22E /* Pretendard-Bold.otf */; };
 		786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */; };
 		786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */; };
+		786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */; };
+		786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		786211992BBABE7C000AE22E /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_delegatePattern.swift; sourceTree = "<group>"; };
 		786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_delegatePattern.swift; sourceTree = "<group>"; };
+		786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_ClosurePattern.swift; sourceTree = "<group>"; };
+		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +117,28 @@
 		786211A32BC11454000AE22E /* 2ndSemina */ = {
 			isa = PBXGroup;
 			children = (
+				786211A92BC11B66000AE22E /* Closure */,
+				786211A82BC11B59000AE22E /* delegatge */,
+			);
+			name = 2ndSemina;
+			sourceTree = "<group>";
+		};
+		786211A82BC11B59000AE22E /* delegatge */ = {
+			isa = PBXGroup;
+			children = (
 				786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */,
 				786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */,
 			);
-			name = 2ndSemina;
+			name = delegatge;
+			sourceTree = "<group>";
+		};
+		786211A92BC11B66000AE22E /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */,
+				786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */,
+			);
+			name = Closure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */,
 				786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */,
 				786211842BBABCB9000AE22E /* WelcomeViewController.swift in Sources */,
 				786211722BBABC98000AE22E /* ViewController.swift in Sources */,
 				786211822BBABCAA000AE22E /* LoginViewController.swift in Sources */,
+				786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */,
 				786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */,
 				7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */,
 				786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */,

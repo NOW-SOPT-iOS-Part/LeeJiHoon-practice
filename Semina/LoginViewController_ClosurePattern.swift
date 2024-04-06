@@ -1,5 +1,5 @@
 //
-//  sdfa.swift
+//  ffd.swift
 //  Semina
 //
 //  Created by 이지훈 on 4/6/24.
@@ -9,10 +9,8 @@ import Foundation
 import UIKit
 
 
-final class LoginViewController_delegatePattern: UIViewController {
+final class LoginViewController_closurePattern: UIViewController {
   
-    
-    
     
     //MARK: - 기본 UI
     
@@ -89,11 +87,12 @@ final class LoginViewController_delegatePattern: UIViewController {
     }
     
     private func pushToWelcomeVC() {
-        let welcomeVC = WelcomeViewController_delegatePattern()
-        welcomeVC.id = idTextField.text
-        welcomeVC.delegate = self
-        
-        self.navigationController?.pushViewController(welcomeVC, animated: true)
+        let welcomeViewController = WelcomeViewController_ClosurePattern()
+        welcomeViewController.completionHandler = { [weak self] id in
+            guard let self else { return }
+            self.idTextField.text = "\(id)에서 어떤걸로 할껀데ㅋㅋ?"
+        }
+        self.navigationController?.pushViewController(welcomeViewController, animated: true)
     }
     
     
@@ -103,19 +102,4 @@ final class LoginViewController_delegatePattern: UIViewController {
         pushToWelcomeVC()
         
     }
-    
-    
-    
-}
-
-extension LoginViewController_delegatePattern: DataBindProtocol, UITextFieldDelegate {
-    func dataBind(id: String?) {
-        
-        guard let id = id else { return }
-         idTextField.text = "\(id)에서 뭐할건데?"
-
-    }
-    
-   
-
 }
