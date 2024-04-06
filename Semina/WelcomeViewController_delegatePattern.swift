@@ -1,17 +1,23 @@
 //
-//  WelcomeViewController.swift
-//  seminar
+//  sadf.swift
+//  Semina
 //
-//  Created by 이지훈 on 3/30/24.
+//  Created by 이지훈 on 4/6/24.
 //
-
 import UIKit
 import Foundation
 
-final class WelcomeViewController: UIViewController {
+protocol DataBindProtocol:AnyObject {
+    func dataBind(id: String?)
+    
+}
+
+class WelcomeViewController_delegatePattern: UIViewController {
     
     //MARK: - variable
     var id : String? = ""
+    
+    weak var delegate: DataBindProtocol?
     
     //MARK: - 기본 요소들
     private let logoImageView: UIImageView = {
@@ -74,11 +80,16 @@ final class WelcomeViewController: UIViewController {
     
     
     @objc func backBtnTapped(sender: UIButton!) {
-        if self.navigationController == nil {
-            self.dismiss(animated: true)
-        } else {
-            self.navigationController?.popViewController(animated: true)
+        
+        if let id = id {
+            delegate?.dataBind(id: id)
         }
+        self.navigationController?.popViewController(animated: true)
+//        if self.navigationController == nil {
+//            self.dismiss(animated: true)
+//        } else {
+//            self.navigationController?.popViewController(animated: true)
+//        }
     }
     
     func bindID() {

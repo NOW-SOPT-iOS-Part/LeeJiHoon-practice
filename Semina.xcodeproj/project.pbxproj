@@ -23,6 +23,8 @@
 		786211A02BBABE7C000AE22E /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 786211972BBABE7C000AE22E /* Pretendard-SemiBold.otf */; };
 		786211A12BBABE7C000AE22E /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 786211982BBABE7C000AE22E /* Pretendard-Black.otf */; };
 		786211A22BBABE7C000AE22E /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 786211992BBABE7C000AE22E /* Pretendard-Bold.otf */; };
+		786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */; };
+		786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		786211972BBABE7C000AE22E /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		786211982BBABE7C000AE22E /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		786211992BBABE7C000AE22E /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_delegatePattern.swift; sourceTree = "<group>"; };
+		786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_delegatePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		7862116C2BBABC98000AE22E /* Semina */ = {
 			isa = PBXGroup;
 			children = (
+				786211A32BC11454000AE22E /* 2ndSemina */,
 				786211852BBABE50000AE22E /* Font */,
 				7862116D2BBABC98000AE22E /* AppDelegate.swift */,
 				7862116F2BBABC98000AE22E /* SceneDelegate.swift */,
@@ -103,6 +108,15 @@
 				786211952BBABE7C000AE22E /* Pretendard-Thin.otf */,
 			);
 			name = Font;
+			sourceTree = "<group>";
+		};
+		786211A32BC11454000AE22E /* 2ndSemina */ = {
+			isa = PBXGroup;
+			children = (
+				786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */,
+				786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */,
+			);
+			name = 2ndSemina;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +198,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */,
 				786211842BBABCB9000AE22E /* WelcomeViewController.swift in Sources */,
 				786211722BBABC98000AE22E /* ViewController.swift in Sources */,
 				786211822BBABCAA000AE22E /* LoginViewController.swift in Sources */,
+				786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */,
 				7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */,
 				786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */,
 			);
