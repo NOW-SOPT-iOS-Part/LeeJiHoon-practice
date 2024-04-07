@@ -10,7 +10,8 @@ import SnapKit
 
 final class LoginViewController: UIViewController {
     
-    
+    private let scrollView = UIScrollView()
+    private var contentView = UIView()
     //MARK: - 기본 UI
     
     private let titleLabel: UILabel = {
@@ -123,6 +124,10 @@ final class LoginViewController: UIViewController {
             make.left.right.equalTo(idTextField)
             make.height.equalTo(58)
         }
+        
+        self.view.addSubview(scrollView)
+        scrollView.addSubview(contentView)
+        
         
         
     }

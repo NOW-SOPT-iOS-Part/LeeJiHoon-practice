@@ -29,6 +29,7 @@
 		786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */; };
 		786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BD2BC12BE0000AE22E /* SnapKit */; };
 		786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */; };
+		786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211C12BC13249000AE22E /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_delegatePattern.swift; sourceTree = "<group>"; };
 		786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
+		786211C12BC13249000AE22E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		786211A82BC11B59000AE22E /* delegatge */ = {
 			isa = PBXGroup;
 			children = (
+				786211C12BC13249000AE22E /* ScrollViewController.swift */,
 				786211A42BC1146B000AE22E /* LoginViewController_delegatePattern.swift */,
 				786211A62BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift */,
 			);
@@ -238,6 +241,7 @@
 				786211822BBABCAA000AE22E /* LoginViewController.swift in Sources */,
 				786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */,
 				786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */,
+				786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */,
 				7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */,
 				786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */,
 			);
