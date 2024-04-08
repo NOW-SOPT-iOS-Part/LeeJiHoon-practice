@@ -1,18 +1,28 @@
 //
-//  WelcomeViewController.swift
-//  seminar
+//  fsdafsf.swift
+//  Semina
 //
-//  Created by 이지훈 on 3/30/24.
+//  Created by 이지훈 on 4/6/24.
 //
 
 import UIKit
 import Foundation
 
+protocol DataBindProtocol2:AnyObject {
+    func dataBind(id: String?)
+    
+}
 
-final class WelcomeViewController: UIViewController {
+class WelcomeViewController_ClosurePattern: UIViewController {
     
     //MARK: - variable
     var id : String? = ""
+    
+    var completionHandler: ((String) -> (Void))?
+
+    typealias handler = ((String) -> (Void))
+        
+    var completionHandler2: handler?
     
     //MARK: - 기본 요소들
     private let logoImageView: UIImageView = {
@@ -55,6 +65,11 @@ final class WelcomeViewController: UIViewController {
         return button
     }()
     
+    func bindID() {
+        guard let idtext = id else { return }
+        self.welcomeLabel.text = "\(idtext)님 \n반가워요!"
+    }
+    
     
     //MARK: - ViewDidload
     override func viewDidLoad() {
@@ -74,17 +89,14 @@ final class WelcomeViewController: UIViewController {
     }
     
     
-    @objc func backBtnTapped(sender: UIButton!) {
-        if self.navigationController == nil {
-            self.dismiss(animated: true)
-        } else {
-            self.navigationController?.popViewController(animated: true)
-        }
+    @objc
+    private func backBtnTapped() {
+        
+        guard let id else { return }
+        completionHandler?(id)
+        self.navigationController?.popViewController(animated: true)
+        
     }
     
-    func bindID() {
-        guard let idtext = id else { return }
-        self.welcomeLabel.text = "\(idtext)님 \n반가워요!"
-    }
     
 }
