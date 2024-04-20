@@ -22,7 +22,7 @@ final class LoginView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private let titleLabel: UILabel = {
+     let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "동네라서 가능한 모든것\n당근에서 가까운 이웃과 함께해요."
         label.textColor = .black
@@ -32,7 +32,7 @@ final class LoginView: UIView {
         return label
     }()
     
-    private let idTextField: UITextField = {
+     let idTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "아이디를 입력해주세요"
         textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
@@ -40,7 +40,7 @@ final class LoginView: UIView {
         return textField
     }()
     
-    private let passwordTextField: UITextField = {
+     let passwordTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "비밀번호를 입력해주세요"
         textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
@@ -57,7 +57,7 @@ final class LoginView: UIView {
         return button
     }()
     
-    private func setLayout() {
+     func setLayout() {
         [titleLabel, idTextField, passwordTextField, loginButton].forEach {
             self.addSubview($0)
         }
