@@ -30,6 +30,7 @@
 		786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BD2BC12BE0000AE22E /* SnapKit */; };
 		786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */; };
 		786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211C12BC13249000AE22E /* ScrollViewController.swift */; };
+		78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8282BD388B60013CACE /* LoginUIview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211C12BC13249000AE22E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		78BAE8282BD388B60013CACE /* LoginUIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		78BAE8272BD388790013CACE /* 3rdSeminar */ = {
 			isa = PBXGroup;
 			children = (
+				78BAE8282BD388B60013CACE /* LoginUIview.swift */,
 			);
 			name = 3rdSeminar;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				786211822BBABCAA000AE22E /* LoginViewController.swift in Sources */,
 				786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */,
 				786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */,
+				78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */,
 				786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */,
 				7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */,
 				786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */,

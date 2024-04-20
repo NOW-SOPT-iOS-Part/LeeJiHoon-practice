@@ -62,6 +62,12 @@ final class LoginViewController: UIViewController {
     }()
     
     
+    private let rootView = LoginView()
+    
+    override func loadView() {
+        self.view = rootView
+    }
+    
     //MARK: - ViewDidload
     override func viewDidLoad() {
         super.viewDidLoad()
