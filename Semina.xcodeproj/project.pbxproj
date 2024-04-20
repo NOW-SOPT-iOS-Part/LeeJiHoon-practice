@@ -90,6 +90,7 @@
 		7862116C2BBABC98000AE22E /* Semina */ = {
 			isa = PBXGroup;
 			children = (
+				78BAE8272BD388790013CACE /* 3rdSeminar */,
 				786211A32BC11454000AE22E /* 2ndSemina */,
 				786211852BBABE50000AE22E /* Font */,
 				7862116D2BBABC98000AE22E /* AppDelegate.swift */,
@@ -146,6 +147,13 @@
 				786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */,
 			);
 			name = Closure;
+			sourceTree = "<group>";
+		};
+		78BAE8272BD388790013CACE /* 3rdSeminar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3rdSeminar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
