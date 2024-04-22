@@ -86,12 +86,14 @@ class chatTableViewCell: UITableViewCell {
             $0.leading.equalTo(nameLabel.snp.trailing).offset(4)
             $0.top.equalTo(nameLabel).offset(2)
         }
+        
         chatLabel.snp.makeConstraints {
             $0.top.equalTo(placeLabel.snp.bottom).offset(4)
             $0.leading.equalTo(nameLabel)
         }
+        
         itemImageView.snp.makeConstraints {
-            $0.trailing.bottom.equalToSuperview().inset(16)
+            $0.trailing.top.equalToSuperview().inset(16)
             $0.size.equalTo(40)
         }
     }
