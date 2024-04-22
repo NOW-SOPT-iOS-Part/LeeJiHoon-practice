@@ -30,6 +30,14 @@
 		786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BD2BC12BE0000AE22E /* SnapKit */; };
 		786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */; };
 		786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211C12BC13249000AE22E /* ScrollViewController.swift */; };
+		78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8282BD388B60013CACE /* LoginUIview.swift */; };
+		78BAE82B2BD38CE80013CACE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE82A2BD38CE80013CACE /* ChatViewController.swift */; };
+		78BAE82D2BD38DF70013CACE /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */; };
+		78BAE8302BD38E9E0013CACE /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 78BAE82F2BD38E9E0013CACE /* Then */; };
+		78BAE8332BD39B360013CACE /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8322BD39B360013CACE /* ChatModel.swift */; };
+		78BAE8352BD3A6AC0013CACE /* CarrotCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8342BD3A6AC0013CACE /* CarrotCollectionViewController.swift */; };
+		78BAE8372BD3A6DA0013CACE /* itmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8362BD3A6DA0013CACE /* itmeViewController.swift */; };
+		78BAE83A2BD3A9420013CACE /* itemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8392BD3A9420013CACE /* itemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +64,13 @@
 		786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211C12BC13249000AE22E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		78BAE8282BD388B60013CACE /* LoginUIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIview.swift; sourceTree = "<group>"; };
+		78BAE82A2BD38CE80013CACE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
+		78BAE8322BD39B360013CACE /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		78BAE8342BD3A6AC0013CACE /* CarrotCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCollectionViewController.swift; sourceTree = "<group>"; };
+		78BAE8362BD3A6DA0013CACE /* itmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itmeViewController.swift; sourceTree = "<group>"; };
+		78BAE8392BD3A9420013CACE /* itemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */,
+				78BAE8302BD38E9E0013CACE /* Then in Frameworks */,
 				786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +106,7 @@
 		7862116C2BBABC98000AE22E /* Semina */ = {
 			isa = PBXGroup;
 			children = (
+				78BAE8272BD388790013CACE /* 3rdSeminar */,
 				786211A32BC11454000AE22E /* 2ndSemina */,
 				786211852BBABE50000AE22E /* Font */,
 				7862116D2BBABC98000AE22E /* AppDelegate.swift */,
@@ -148,6 +165,36 @@
 			name = Closure;
 			sourceTree = "<group>";
 		};
+		78BAE8272BD388790013CACE /* 3rdSeminar */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE8382BD3A8620013CACE /* Collection */,
+				78BAE8312BD39B260013CACE /* Model */,
+				78BAE8282BD388B60013CACE /* LoginUIview.swift */,
+				78BAE82A2BD38CE80013CACE /* ChatViewController.swift */,
+				78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */,
+			);
+			name = 3rdSeminar;
+			sourceTree = "<group>";
+		};
+		78BAE8312BD39B260013CACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE8322BD39B360013CACE /* ChatModel.swift */,
+				78BAE8392BD3A9420013CACE /* itemModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78BAE8382BD3A8620013CACE /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE8362BD3A6DA0013CACE /* itmeViewController.swift */,
+				78BAE8342BD3A6AC0013CACE /* CarrotCollectionViewController.swift */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +214,7 @@
 			packageProductDependencies = (
 				786211BD2BC12BE0000AE22E /* SnapKit */,
 				786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */,
+				78BAE82F2BD38E9E0013CACE /* Then */,
 			);
 			productName = Semina;
 			productReference = 7862116A2BBABC98000AE22E /* Semina.app */;
@@ -198,6 +246,7 @@
 			mainGroup = 786211612BBABC98000AE22E;
 			packageReferences = (
 				786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				78BAE82E2BD38E9E0013CACE /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = 7862116B2BBABC98000AE22E /* Products */;
 			projectDirPath = "";
@@ -234,15 +283,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BAE82D2BD38DF70013CACE /* chatTableViewCell.swift in Sources */,
+				78BAE8372BD3A6DA0013CACE /* itmeViewController.swift in Sources */,
 				786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */,
+				78BAE8352BD3A6AC0013CACE /* CarrotCollectionViewController.swift in Sources */,
 				786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */,
+				78BAE8332BD39B360013CACE /* ChatModel.swift in Sources */,
 				786211842BBABCB9000AE22E /* WelcomeViewController.swift in Sources */,
 				786211722BBABC98000AE22E /* ViewController.swift in Sources */,
 				786211822BBABCAA000AE22E /* LoginViewController.swift in Sources */,
 				786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */,
 				786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */,
+				78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */,
 				786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */,
 				7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */,
+				78BAE82B2BD38CE80013CACE /* ChatViewController.swift in Sources */,
+				78BAE83A2BD3A9420013CACE /* itemModel.swift in Sources */,
 				786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +524,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		78BAE82E2BD38E9E0013CACE /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -480,6 +544,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		78BAE82F2BD38E9E0013CACE /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78BAE82E2BD38E9E0013CACE /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

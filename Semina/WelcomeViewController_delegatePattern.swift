@@ -4,8 +4,10 @@
 //
 //  Created by 이지훈 on 4/6/24.
 //
+
 import UIKit
 import Foundation
+
 
 protocol DataBindProtocol:AnyObject {
     func dataBind(id: String?)

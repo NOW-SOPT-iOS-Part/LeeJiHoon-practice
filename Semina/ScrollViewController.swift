@@ -7,8 +7,10 @@
 
 import UIKit
 import SnapKit
+import Combine
 
 class ScrollViewController: UIViewController {
+    
     
     //MARK: - 변수
     private let scrollView = UIScrollView()

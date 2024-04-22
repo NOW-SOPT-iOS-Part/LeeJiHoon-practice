@@ -20,7 +20,6 @@ final class LoginViewController: UIViewController {
         label.textColor = .black
         label.textAlignment = .center
         label.numberOfLines = 2
-        
         label.font = UIFont(name: "Pretendard-Bold", size: 18)
         return label
         
