@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+
+
 struct ChatModel {
     let profileImg: UIImage?
     let name: String?

@@ -30,6 +30,8 @@
 		786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BD2BC12BE0000AE22E /* SnapKit */; };
 		786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */; };
 		786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211C12BC13249000AE22E /* ScrollViewController.swift */; };
+		78B643BB2BDCC7F900C2EBEF /* server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643BA2BDCC7F900C2EBEF /* server.swift */; };
+		78B643BE2BDCC89B00C2EBEF /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 78B643BD2BDCC89B00C2EBEF /* Moya */; };
 		78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8282BD388B60013CACE /* LoginUIview.swift */; };
 		78BAE82B2BD38CE80013CACE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE82A2BD38CE80013CACE /* ChatViewController.swift */; };
 		78BAE82D2BD38DF70013CACE /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */; };
@@ -64,6 +66,7 @@
 		786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211C12BC13249000AE22E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		78B643BA2BDCC7F900C2EBEF /* server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = server.swift; sourceTree = "<group>"; };
 		78BAE8282BD388B60013CACE /* LoginUIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIview.swift; sourceTree = "<group>"; };
 		78BAE82A2BD38CE80013CACE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 			files = (
 				786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */,
 				78BAE8302BD38E9E0013CACE /* Then in Frameworks */,
+				78B643BE2BDCC89B00C2EBEF /* Moya in Frameworks */,
 				786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +110,7 @@
 		7862116C2BBABC98000AE22E /* Semina */ = {
 			isa = PBXGroup;
 			children = (
+				78B643B92BDCC7EA00C2EBEF /* 4thSeminar */,
 				78BAE8272BD388790013CACE /* 3rdSeminar */,
 				786211A32BC11454000AE22E /* 2ndSemina */,
 				786211852BBABE50000AE22E /* Font */,
@@ -165,6 +170,14 @@
 			name = Closure;
 			sourceTree = "<group>";
 		};
+		78B643B92BDCC7EA00C2EBEF /* 4thSeminar */ = {
+			isa = PBXGroup;
+			children = (
+				78B643BA2BDCC7F900C2EBEF /* server.swift */,
+			);
+			name = 4thSeminar;
+			sourceTree = "<group>";
+		};
 		78BAE8272BD388790013CACE /* 3rdSeminar */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +228,7 @@
 				786211BD2BC12BE0000AE22E /* SnapKit */,
 				786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */,
 				78BAE82F2BD38E9E0013CACE /* Then */,
+				78B643BD2BDCC89B00C2EBEF /* Moya */,
 			);
 			productName = Semina;
 			productReference = 7862116A2BBABC98000AE22E /* Semina.app */;
@@ -247,6 +261,7 @@
 			packageReferences = (
 				786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				78BAE82E2BD38E9E0013CACE /* XCRemoteSwiftPackageReference "Then" */,
+				78B643BC2BDCC89B00C2EBEF /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = 7862116B2BBABC98000AE22E /* Products */;
 			projectDirPath = "";
@@ -285,6 +300,7 @@
 			files = (
 				78BAE82D2BD38DF70013CACE /* chatTableViewCell.swift in Sources */,
 				78BAE8372BD3A6DA0013CACE /* itmeViewController.swift in Sources */,
+				78B643BB2BDCC7F900C2EBEF /* server.swift in Sources */,
 				786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */,
 				78BAE8352BD3A6AC0013CACE /* CarrotCollectionViewController.swift in Sources */,
 				786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */,
@@ -524,6 +540,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		78B643BC2BDCC89B00C2EBEF /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 		78BAE82E2BD38E9E0013CACE /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then.git";
@@ -544,6 +568,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		78B643BD2BDCC89B00C2EBEF /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78B643BC2BDCC89B00C2EBEF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 		78BAE82F2BD38E9E0013CACE /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
