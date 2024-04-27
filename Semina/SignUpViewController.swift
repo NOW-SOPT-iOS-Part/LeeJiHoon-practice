@@ -5,9 +5,7 @@
 //  Created by 이지훈 on 4/27/24.
 //
 
-import Foundation
 import UIKit
-
 import SnapKit
 import Then
 import Moya

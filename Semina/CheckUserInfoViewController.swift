@@ -24,7 +24,7 @@ final class CheckUserInfoViewController: UIViewController {
 
     private func requestUserInfo() {
         //memeberId에 아까 받은 멤버 아이디 직접 넣어주기
-        UserService.shared.getUserInfo(memberId: "\(11)") { [weak self] response in
+        UserService.shared.getUserInfo(memberId: "\(100)") { [weak self] response in
             switch response {
             case .success(let data):
                 guard let data = data as? UserInfoResponseModel else {

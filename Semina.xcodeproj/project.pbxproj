@@ -32,7 +32,6 @@
 		786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211C12BC13249000AE22E /* ScrollViewController.swift */; };
 		78B643BE2BDCC89B00C2EBEF /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 78B643BD2BDCC89B00C2EBEF /* Moya */; };
 		78B643C02BDCCA6600C2EBEF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643BF2BDCCA6600C2EBEF /* Config.swift */; };
-		78B643C22BDCCC3200C2EBEF /* serverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C12BDCCC3200C2EBEF /* serverViewController.swift */; };
 		78B643C42BDCCE1600C2EBEF /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C32BDCCE1600C2EBEF /* NetworkResult.swift */; };
 		78B643C62BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C52BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift */; };
 		78B643C82BDCD5F200C2EBEF /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C72BDCD5F200C2EBEF /* SignUpRequestModel.swift */; };
@@ -77,7 +76,6 @@
 		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211C12BC13249000AE22E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		78B643BF2BDCCA6600C2EBEF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		78B643C12BDCCC3200C2EBEF /* serverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serverViewController.swift; sourceTree = "<group>"; };
 		78B643C32BDCCE1600C2EBEF /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		78B643C52BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
 		78B643C72BDCD5F200C2EBEF /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				78B643BF2BDCCA6600C2EBEF /* Config.swift */,
-				78B643C12BDCCC3200C2EBEF /* serverViewController.swift */,
 				78B643C32BDCCE1600C2EBEF /* NetworkResult.swift */,
 				78B643C52BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift */,
 				78B643C72BDCD5F200C2EBEF /* SignUpRequestModel.swift */,
@@ -338,7 +335,6 @@
 				78BAE8352BD3A6AC0013CACE /* CarrotCollectionViewController.swift in Sources */,
 				78B643C82BDCD5F200C2EBEF /* SignUpRequestModel.swift in Sources */,
 				786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */,
-				78B643C22BDCCC3200C2EBEF /* serverViewController.swift in Sources */,
 				78BAE8332BD39B360013CACE /* ChatModel.swift in Sources */,
 				786211842BBABCB9000AE22E /* WelcomeViewController.swift in Sources */,
 				786211722BBABC98000AE22E /* ViewController.swift in Sources */,
