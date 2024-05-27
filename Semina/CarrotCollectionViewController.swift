@@ -6,7 +6,7 @@
 //
 import UIKit
 
-protocol ItemCollectoinViewCellDelegate: AnyObject {
+protocol ItemCollectoinViewCellDelegate: AnyObject { //LSP
     func heartButtonDidTapEvent(state: Bool, row: Int)
 }
 
