@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		784DDECB2C01BB8D0061B432 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DDECA2C01BB8D0061B432 /* LoginVM.swift */; };
+		784DDECD2C01BC0C0061B432 /* LoginVC_DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DDECC2C01BC0C0061B432 /* LoginVC_DI.swift */; };
+		784DDECF2C01BD170061B432 /* LoginObevable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DDECE2C01BD170061B432 /* LoginObevable.swift */; };
+		784DDED12C01BD440061B432 /* Loginobservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DDED02C01BD440061B432 /* Loginobservable.swift */; };
+		784DDED32C01BD750061B432 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DDED22C01BD750061B432 /* Toast.swift */; };
+		784DDED62C01C7290061B432 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 784DDED52C01C7290061B432 /* RxBlocking */; };
+		784DDED82C01C7290061B432 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 784DDED72C01C7290061B432 /* RxCocoa */; };
+		784DDEDA2C01C7290061B432 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 784DDED92C01C7290061B432 /* RxRelay */; };
 		7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862116D2BBABC98000AE22E /* AppDelegate.swift */; };
 		786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862116F2BBABC98000AE22E /* SceneDelegate.swift */; };
 		786211722BBABC98000AE22E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211712BBABC98000AE22E /* ViewController.swift */; };
@@ -28,10 +36,18 @@
 		786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */; };
 		786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */; };
 		786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BD2BC12BE0000AE22E /* SnapKit */; };
-		786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */; };
 		786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786211C12BC13249000AE22E /* ScrollViewController.swift */; };
-		78B643BB2BDCC7F900C2EBEF /* server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643BA2BDCC7F900C2EBEF /* server.swift */; };
 		78B643BE2BDCC89B00C2EBEF /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 78B643BD2BDCC89B00C2EBEF /* Moya */; };
+		78B643C02BDCCA6600C2EBEF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643BF2BDCCA6600C2EBEF /* Config.swift */; };
+		78B643C42BDCCE1600C2EBEF /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C32BDCCE1600C2EBEF /* NetworkResult.swift */; };
+		78B643C62BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C52BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift */; };
+		78B643C82BDCD5F200C2EBEF /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C72BDCD5F200C2EBEF /* SignUpRequestModel.swift */; };
+		78B643CA2BDCD5FE00C2EBEF /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643C92BDCD5FE00C2EBEF /* SignUpResponseModel.swift */; };
+		78B643CC2BDCD60E00C2EBEF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643CB2BDCD60E00C2EBEF /* SignUpViewController.swift */; };
+		78B643CE2BDCD61C00C2EBEF /* UserTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643CD2BDCD61C00C2EBEF /* UserTargetType.swift */; };
+		78B643D02BDCD62700C2EBEF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643CF2BDCD62700C2EBEF /* UserService.swift */; };
+		78B643D22BDCD63F00C2EBEF /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643D12BDCD63F00C2EBEF /* CheckUserInfoViewController.swift */; };
+		78B643D42BDCD68300C2EBEF /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B643D32BDCD68300C2EBEF /* UserInfoResponseModel.swift */; };
 		78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE8282BD388B60013CACE /* LoginUIview.swift */; };
 		78BAE82B2BD38CE80013CACE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE82A2BD38CE80013CACE /* ChatViewController.swift */; };
 		78BAE82D2BD38DF70013CACE /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */; };
@@ -43,6 +59,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		784DDECA2C01BB8D0061B432 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		784DDECC2C01BC0C0061B432 /* LoginVC_DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC_DI.swift; sourceTree = "<group>"; };
+		784DDECE2C01BD170061B432 /* LoginObevable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginObevable.swift; sourceTree = "<group>"; };
+		784DDED02C01BD440061B432 /* Loginobservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginobservable.swift; sourceTree = "<group>"; };
+		784DDED22C01BD750061B432 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		7862116A2BBABC98000AE22E /* Semina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7862116D2BBABC98000AE22E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7862116F2BBABC98000AE22E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +87,16 @@
 		786211AA2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211AC2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ClosurePattern.swift; sourceTree = "<group>"; };
 		786211C12BC13249000AE22E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
-		78B643BA2BDCC7F900C2EBEF /* server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = server.swift; sourceTree = "<group>"; };
+		78B643BF2BDCCA6600C2EBEF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		78B643C32BDCCE1600C2EBEF /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		78B643C52BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		78B643C72BDCD5F200C2EBEF /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		78B643C92BDCD5FE00C2EBEF /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		78B643CB2BDCD60E00C2EBEF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		78B643CD2BDCD61C00C2EBEF /* UserTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTargetType.swift; sourceTree = "<group>"; };
+		78B643CF2BDCD62700C2EBEF /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		78B643D12BDCD63F00C2EBEF /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
+		78B643D32BDCD68300C2EBEF /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
 		78BAE8282BD388B60013CACE /* LoginUIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIview.swift; sourceTree = "<group>"; };
 		78BAE82A2BD38CE80013CACE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		78BAE82C2BD38DF70013CACE /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
@@ -81,16 +111,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784DDED82C01C7290061B432 /* RxCocoa in Frameworks */,
 				786211BE2BC12BE0000AE22E /* SnapKit in Frameworks */,
+				784DDEDA2C01C7290061B432 /* RxRelay in Frameworks */,
 				78BAE8302BD38E9E0013CACE /* Then in Frameworks */,
 				78B643BE2BDCC89B00C2EBEF /* Moya in Frameworks */,
-				786211C02BC12BE0000AE22E /* SnapKit-Dynamic in Frameworks */,
+				784DDED62C01C7290061B432 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		784DDEC92C01BB7E0061B432 /* 6th */ = {
+			isa = PBXGroup;
+			children = (
+				784DDECA2C01BB8D0061B432 /* LoginVM.swift */,
+				784DDECC2C01BC0C0061B432 /* LoginVC_DI.swift */,
+				784DDECE2C01BD170061B432 /* LoginObevable.swift */,
+				784DDED02C01BD440061B432 /* Loginobservable.swift */,
+				784DDED22C01BD750061B432 /* Toast.swift */,
+			);
+			name = 6th;
+			sourceTree = "<group>";
+		};
 		786211612BBABC98000AE22E = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +154,7 @@
 		7862116C2BBABC98000AE22E /* Semina */ = {
 			isa = PBXGroup;
 			children = (
+				784DDEC92C01BB7E0061B432 /* 6th */,
 				78B643B92BDCC7EA00C2EBEF /* 4thSeminar */,
 				78BAE8272BD388790013CACE /* 3rdSeminar */,
 				786211A32BC11454000AE22E /* 2ndSemina */,
@@ -173,7 +218,16 @@
 		78B643B92BDCC7EA00C2EBEF /* 4thSeminar */ = {
 			isa = PBXGroup;
 			children = (
-				78B643BA2BDCC7F900C2EBEF /* server.swift */,
+				78B643BF2BDCCA6600C2EBEF /* Config.swift */,
+				78B643C32BDCCE1600C2EBEF /* NetworkResult.swift */,
+				78B643C52BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift */,
+				78B643C72BDCD5F200C2EBEF /* SignUpRequestModel.swift */,
+				78B643C92BDCD5FE00C2EBEF /* SignUpResponseModel.swift */,
+				78B643CB2BDCD60E00C2EBEF /* SignUpViewController.swift */,
+				78B643CD2BDCD61C00C2EBEF /* UserTargetType.swift */,
+				78B643CF2BDCD62700C2EBEF /* UserService.swift */,
+				78B643D12BDCD63F00C2EBEF /* CheckUserInfoViewController.swift */,
+				78B643D32BDCD68300C2EBEF /* UserInfoResponseModel.swift */,
 			);
 			name = 4thSeminar;
 			sourceTree = "<group>";
@@ -226,9 +280,11 @@
 			name = Semina;
 			packageProductDependencies = (
 				786211BD2BC12BE0000AE22E /* SnapKit */,
-				786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */,
 				78BAE82F2BD38E9E0013CACE /* Then */,
 				78B643BD2BDCC89B00C2EBEF /* Moya */,
+				784DDED52C01C7290061B432 /* RxBlocking */,
+				784DDED72C01C7290061B432 /* RxCocoa */,
+				784DDED92C01C7290061B432 /* RxRelay */,
 			);
 			productName = Semina;
 			productReference = 7862116A2BBABC98000AE22E /* Semina.app */;
@@ -262,6 +318,7 @@
 				786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				78BAE82E2BD38E9E0013CACE /* XCRemoteSwiftPackageReference "Then" */,
 				78B643BC2BDCC89B00C2EBEF /* XCRemoteSwiftPackageReference "Moya" */,
+				784DDED42C01C7290061B432 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 7862116B2BBABC98000AE22E /* Products */;
 			projectDirPath = "";
@@ -300,21 +357,35 @@
 			files = (
 				78BAE82D2BD38DF70013CACE /* chatTableViewCell.swift in Sources */,
 				78BAE8372BD3A6DA0013CACE /* itmeViewController.swift in Sources */,
-				78B643BB2BDCC7F900C2EBEF /* server.swift in Sources */,
+				784DDECB2C01BB8D0061B432 /* LoginVM.swift in Sources */,
+				784DDECD2C01BC0C0061B432 /* LoginVC_DI.swift in Sources */,
 				786211AD2BC11B78000AE22E /* WelcomeViewController_ClosurePattern.swift in Sources */,
+				78B643C02BDCCA6600C2EBEF /* Config.swift in Sources */,
+				78B643CA2BDCD5FE00C2EBEF /* SignUpResponseModel.swift in Sources */,
+				78B643CE2BDCD61C00C2EBEF /* UserTargetType.swift in Sources */,
+				78B643D02BDCD62700C2EBEF /* UserService.swift in Sources */,
 				78BAE8352BD3A6AC0013CACE /* CarrotCollectionViewController.swift in Sources */,
+				78B643C82BDCD5F200C2EBEF /* SignUpRequestModel.swift in Sources */,
 				786211A72BC1148E000AE22E /* WelcomeViewController_delegatePattern.swift in Sources */,
 				78BAE8332BD39B360013CACE /* ChatModel.swift in Sources */,
 				786211842BBABCB9000AE22E /* WelcomeViewController.swift in Sources */,
 				786211722BBABC98000AE22E /* ViewController.swift in Sources */,
+				78B643D22BDCD63F00C2EBEF /* CheckUserInfoViewController.swift in Sources */,
 				786211822BBABCAA000AE22E /* LoginViewController.swift in Sources */,
+				784DDED32C01BD750061B432 /* Toast.swift in Sources */,
+				78B643C42BDCCE1600C2EBEF /* NetworkResult.swift in Sources */,
+				78B643C62BDCCE2A00C2EBEF /* MoyaLoggingPlugin.swift in Sources */,
 				786211AB2BC11B73000AE22E /* LoginViewController_ClosurePattern.swift in Sources */,
 				786211A52BC1146B000AE22E /* LoginViewController_delegatePattern.swift in Sources */,
+				784DDECF2C01BD170061B432 /* LoginObevable.swift in Sources */,
 				78BAE8292BD388B60013CACE /* LoginUIview.swift in Sources */,
+				78B643CC2BDCD60E00C2EBEF /* SignUpViewController.swift in Sources */,
 				786211C22BC13249000AE22E /* ScrollViewController.swift in Sources */,
 				7862116E2BBABC98000AE22E /* AppDelegate.swift in Sources */,
 				78BAE82B2BD38CE80013CACE /* ChatViewController.swift in Sources */,
+				78B643D42BDCD68300C2EBEF /* UserInfoResponseModel.swift in Sources */,
 				78BAE83A2BD3A9420013CACE /* itemModel.swift in Sources */,
+				784DDED12C01BD440061B432 /* Loginobservable.swift in Sources */,
 				786211702BBABC98000AE22E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +460,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -446,6 +518,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -457,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://3.39.169.52:3000/api ";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D2DRA3F792;
@@ -485,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://3.39.169.52:3000/api ";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D2DRA3F792;
@@ -532,6 +607,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		784DDED42C01C7290061B432 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
 		786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -559,15 +642,25 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		784DDED52C01C7290061B432 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 784DDED42C01C7290061B432 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		784DDED72C01C7290061B432 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 784DDED42C01C7290061B432 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		784DDED92C01C7290061B432 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 784DDED42C01C7290061B432 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
 		786211BD2BC12BE0000AE22E /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		786211BF2BC12BE0000AE22E /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 786211BC2BC12BE0000AE22E /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 		78B643BD2BDCC89B00C2EBEF /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
